@@ -1,0 +1,12 @@
+xport COMPOSER_PROVIDERS='{
+  "github": {
+    "provider": "github",
+    "module": "passport-github",
+    "clientID": "517e0bb440b3c15ef493",
+    "clientSecret": "0f6b6089f432a47c56d67bd22fdcddb83c14bbe5",
+    "authPath": "/auth/github",
+    "callbackURL": "/auth/github/callback",
+"successRedirect": "http://localhost:3030/#/customerHome",  
+    "failureRedirect": "/"
+  }
+}'
